@@ -135,11 +135,6 @@ header {
 
 }
 
-@font-face {
-    font-family: Pacifico;
-    src: url(/src/Pacifico/Pacifico-Regular.ttf);
-}
-
 #ispoved {
     top: 256%;
     right: 3%;
