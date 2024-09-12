@@ -131,7 +131,7 @@ header {
 
 .text-uslugi {
    font-family: 'Pacifico';
-   font-size: 40pt;
+   font-size: 190%;
 
 }
 
@@ -141,24 +141,24 @@ header {
 }
 
 #ispoved {
-    top: 266%;
+    top: 256%;
     right: 3%;
 }
 
 #two-foto {
-    top: 278%;
+    top: 268%;
     right: 23%;
 }
 
 #three-foto {
-    top: 296%;
+    top: 286%;
     right: 6%;
 }
 
 .emblem {
     position: absolute;
     left: 104px;
-    top: 270%;
+    top: 260%;
 }
 
 .text-uslugi {
@@ -167,7 +167,7 @@ header {
 
 .right-part-zapiski {
     position: absolute;
-    top: 298%;
+    top: 288%;
     left: 9%;
 }
 
@@ -177,12 +177,34 @@ header {
     background: black;
     border-radius: 50px;
     position: absolute;
-    top: 320%;
+    top: 310%;
     right: 64%;
 }
 
-.button-zapiski {
+
+
+.btn {
     background: #F2D673;
-    width: 20px;
-    height: 50px;
+    width: 295px;
+    height: 85px;
+    position: absolute;
+    top: 315%;
+    right: 69%;
+    border-radius: 30px;
+    font-family: 'Pacifico';
+    font-size: 180%;
+    border-width: 0px;
+    margin-bottom: 0px;
+
+    box-shadow: 0 6px #ffa500;
 }
+
+.btn:hover {
+    box-shadow: 0 4px #ffa500;
+    top: 316%;
+}
+
+.btn:active {
+    box-shadow: none;
+    top: 316%;
+  }
