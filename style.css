@@ -115,9 +115,6 @@ header {
 
 }
 
-.fon {
-    position: absolute;
-}
 .zapiski-foto {
     width: 570px;
     height: auto;
@@ -203,3 +200,24 @@ header {
     box-shadow: none;
     top: 316%;
   }
+
+
+  .fon-part-about {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fon-page-zapiski {
+    background-image: url(src/рамка.png);
+}
