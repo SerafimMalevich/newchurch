@@ -115,6 +115,9 @@ header {
 
 }
 
+
+
+
 .zapiski-foto {
     width: 570px;
     height: auto;
@@ -122,6 +125,7 @@ header {
     padding-right: 100px;
 }
 .zapiski {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -133,24 +137,24 @@ header {
 }
 
 #ispoved {
-    top: 256%;
+    top: 123%;
     right: 3%;
 }
 
 #two-foto {
-    top: 268%;
+    top: 136%;
     right: 23%;
 }
 
 #three-foto {
-    top: 286%;
+    top: 154%;
     right: 6%;
 }
 
 .emblem {
     position: absolute;
-    left: 104px;
-    top: 260%;
+    left: 115px;
+    top: 124%;
 }
 
 .text-uslugi {
@@ -159,7 +163,7 @@ header {
 
 .right-part-zapiski {
     position: absolute;
-    top: 288%;
+    top: 152%;
     left: 9%;
 }
 
@@ -169,7 +173,7 @@ header {
     background: black;
     border-radius: 50px;
     position: absolute;
-    top: 310%;
+    top: 174%;
     right: 64%;
 }
 
@@ -180,7 +184,7 @@ header {
     width: 295px;
     height: 85px;
     position: absolute;
-    top: 315%;
+    top: 179%;
     right: 69%;
     border-radius: 30px;
     font-family: 'Pacifico';
@@ -193,31 +197,18 @@ header {
 
 .btn:hover {
     box-shadow: 0 4px #ffa500;
-    top: 316%;
+    top: 180%;
 }
 
 .btn:active {
     box-shadow: none;
-    top: 316%;
+    top: 180%;
   }
-
-
-  .fon-part-about {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .fon-page-zapiski {
     background-image: url(src/рамка.png);
+}
+
+.baner {
+    width: 100%;
 }
