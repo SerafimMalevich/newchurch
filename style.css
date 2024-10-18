@@ -131,6 +131,11 @@ header {
 
 }
 
+.zapiski-text {
+    font-family: 'Pacifico';
+    font-size: 35pt;
+}
+
 .zapiski-right {
     display: flex;
     flex-direction: row-reverse;
