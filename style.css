@@ -18,7 +18,7 @@ a {
 .menu {
     display: flex;
     gap: 100px;
-    background: #F2D673;
+    background: #f2d673;
     height: 120%;
     justify-content: center;
     align-items: center;
@@ -112,13 +112,15 @@ header {
 
 }
 
+
+
+
 .treba {
     background-image: url(src/img/рамка.png);
     background-size: cover;
     padding: 100px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .treba-left {
@@ -176,6 +178,8 @@ header {
     width: 100%;
 }
 
+
+
 .about {
     background-image: url(src/img/рамка-жёлтая.png);
     background-size: cover;
@@ -224,8 +228,287 @@ header {
     z-index: 2;
 }
 
-.uzor {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.emblem-foto {
+    padding-top: 5%;
+}
+
+
+
+
+
+.page-treba {
+    background-image: url(src/img/рамка-большая.png);
+    background-size: cover;
+    padding: 100px;
+}
+
+.center-top-page-treba {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.treba-text-page-treba {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.line {
+    width: 500px;
+    height: 1;
+    background: black;
+    border-radius: 50px;
+}
+
+
+
+.christening-part {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-heading-page-treba{
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+
+.consecration-car-part {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wedding-part {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.communion-at-home-part {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.podval {
+    background-color: #f2d673;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+
+.podval-fist-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.text-podval-year {
+    font-family: "IBM Plex Serif";
+    font-size: 14pt;
+}
+
+.text-podval-left {
+    font-family: "IBM Plex Serif";
+    font-size: 14pt;
+    margin-bottom: 15%;
+}
+
+
+.text-podval {
+    text-align: center;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    line-height: 1.8;
+}
+
+.text-podval-menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "IBM Plex Serif";
+    font-size: 16pt;
+    margin-bottom: 15%;
+}
+
+
+.text-podval-networks {
+    padding-left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    line-height: 2;
+}
+
+.soc-networks-tg-icons {
+    text-align: center;
+    display: inline-block;
+    font-size: 16pt;
+}
+
+.soc-networks-vk-icons {
+    text-align: center;
+    display: inline-block;
+    font-size: 16pt;
+}
+
+.soc-networks-Whatsapp-icons {
+    text-align: center;
+    display: inline-block;
+    font-size: 16pt;
+}
+
+
+.text-podval-right {
+    text-align: center;
+    display: inline-block;
+    padding-left: 13%;
+    margin-top: 1%;
+    line-height: 2;
+}
+
+.text-podval-telephone {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "IBM Plex Serif";
+    font-size: 16pt;
+    margin-bottom: 15%;
+    line-height: 3;
+}
+
+.text-podval-icons-soc-networks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding-top: 10%;
+}
+
+
+
+.page-about {
+    background-image: url(src/about-рамка.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+    background-color: #F1E6BE;
+}
+
+.center-top-page-about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-text-page-about {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    text-align: center;
+    margin-top: -2%;
+}
+
+
+.text-heading-page-treba{
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+.information-part {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-part-two {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-part-three {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-gallery {
+    background-image: url(src/img/рамка-галерея.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.center-top-page-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.gallery-text-page-gallery {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.video {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+
+.line1 {
+    display:-webkit-inline-box;
+}
+
+.images {
+    margin-top: 3%;
+    margin-left: 3%;
+    border-collapse: separate;
+    border-spacing: 10%;
 }
