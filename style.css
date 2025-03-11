@@ -1,3 +1,6 @@
+/* * {
+    outline: 2px solid red;
+} */
 html,
 * {
     padding: 0;
@@ -271,7 +274,7 @@ header {
     align-items: center;
 }
 
-.text-heading-page-treba{
+.text-heading-page-treba {
     font-family: 'Pacifico';
     font-size: 40pt;
     display: flex;
@@ -307,19 +310,23 @@ header {
 
 
 
+
+
+
 .podval {
     background-color: #f2d673;
-    padding-left: 3%;
     display: flex;
     flex-direction: row;
-    padding-top: 2%;
+    justify-content: space-evenly;
+    text-wrap: nowrap;
+    gap: 50px;
+    padding-block: 30px;
 }
 
 .podval-fist-part {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 5%;
 }
 
 .text-podval-year {
@@ -330,17 +337,13 @@ header {
 .text-podval-left {
     font-family: "IBM Plex Serif";
     font-size: 14pt;
-    margin-bottom: 15%;
 }
 
 
 .text-podval {
     text-align: center;
-    padding-left: 10%;
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
-    line-height: 1.8;
 }
 
 .text-podval-menu {
@@ -349,44 +352,25 @@ header {
     flex-direction: column;
     font-family: "IBM Plex Serif";
     font-size: 16pt;
-    margin-bottom: 15%;
+    gap: 10px;
 }
 
 
 .text-podval-networks {
-    padding-left: 13%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1%;
-    line-height: 2;
 }
 
-.soc-networks-tg-icons {
+.soc-networks-icon {
     text-align: center;
     display: inline-block;
     font-size: 16pt;
 }
-
-.soc-networks-vk-icons {
-    text-align: center;
-    display: inline-block;
-    font-size: 16pt;
-}
-
-.soc-networks-Whatsapp-icons {
-    text-align: center;
-    display: inline-block;
-    font-size: 16pt;
-}
-
 
 .text-podval-right {
     text-align: center;
     display: inline-block;
-    padding-left: 13%;
-    margin-top: 1%;
-    line-height: 2;
 }
 
 .text-podval-telephone {
@@ -395,20 +379,71 @@ header {
     flex-direction: column;
     font-family: "IBM Plex Serif";
     font-size: 16pt;
-    margin-bottom: 15%;
-    line-height: 3;
 }
 
 .text-podval-icons-soc-networks {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
     justify-content: center;
     align-items: center;
-    gap: 15%;
-    padding-top: 10%;
+    gap: 30px;
 }
+
+h3 {
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:1280px) {
+    .text-podval {
+        display: none;
+    }
+}
+
+
+@media (max-width:1024px) {
+
+    .text-podval-icons-soc-networks {
+        gap: 15px;
+    }
+
+    .text-podval-networks h3 {
+        display: none;
+    }
+
+    .text-podval-icons-soc-networks {
+        flex-direction: column;
+    }
+
+    h3 {
+        font-size: 18pt;
+    }
+
+    .soc-networks-icon {
+        font-size: 12pt;
+    }
+
+    .soc-networks-icon img {
+        width: 40px;
+    }
+}
+
+@media (max-width:660px) {
+    .podval {
+        flex-direction: column;
+    }
+
+    .text-podval-icons-soc-networks {
+        flex-direction: row;
+    }
+
+    .text-podval-networks h3 {
+        display: block;
+    }
+
+}
+
 
 
 
@@ -437,7 +472,7 @@ header {
 }
 
 
-.text-heading-page-treba{
+.text-heading-page-treba {
     font-family: 'Pacifico';
     font-size: 40pt;
     display: flex;
@@ -499,7 +534,7 @@ header {
 
 
 .line1 {
-    display:-webkit-inline-box;
+    display: -webkit-inline-box;
 }
 
 .images {
