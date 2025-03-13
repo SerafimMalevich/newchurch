@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 2px solid red;
-}
+} */
 
 html,
 * {
@@ -315,6 +315,10 @@ header {
         display: none;
     }
 
+    .side {
+        width: 100%;
+    }
+
     .logo-two {
         display: flex;
         width: 190px;
@@ -397,6 +401,7 @@ header {
     .info-left {
         margin-block: 90px;
     }
+
 }
 
 @media (max-width:710px) {
@@ -414,6 +419,7 @@ header {
     }
 
 }
+
 
 @media (max-width:522px) {
 
