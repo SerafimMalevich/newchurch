@@ -1,6 +1,7 @@
-/* * {
+* {
     outline: 2px solid red;
-} */
+}
+
 html,
 * {
     padding: 0;
@@ -54,6 +55,7 @@ a {
 
 .menu-right {
     border-radius: 1000px 0px 0px 1000px;
+    padding-left: 25px;
 
 }
 
@@ -77,11 +79,21 @@ header {
     bottom: 0;
 }
 
+.logo-two {
+    width: 250px;
+    position: relative;
+    bottom: 0;
+}
+
 .info-text {
     text-align: center;
 }
 
-.info {
+.info-text-right {
+    text-align: center;
+}
+
+.info-left {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -112,9 +124,337 @@ header {
 
 .info-right {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+
+.burger-menu {
+    position: fixed;
+    top: 20px;
+    left: 26px;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.burger-menu .line {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+/* Анимация для бургера при открытии меню */
+.burger-menu.active .line:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.burger-menu.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active .line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+/* Стиль для меню */
+.menu-burger {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    /* Скрываем за пределами экрана */
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+.menu-burger ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.menu-burger ul li {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu-burger ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Показать меню */
+.menu-burger.active {
+    right: 0;
+}
+
+
+
+@media (max-width:7680px) {
+    .logo-two {
+        display: none;
+    }
+
+    .menu-two {
+        display: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (max-width:1880px) {
+    .logo-two {
+        display: none;
+    }
+}
+
+@media (max-width:1770px) {
+
+    .info-text {
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    .info-text-right {
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    .phone {
+        font-size: 18pt;
+    }
+
+    .menu-link {
+        font-size: 18pt;
+    }
+}
+
+@media (max-width:1580px) {
+
+    .info-text {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .info-text-right {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .phone {
+        font-size: 16pt;
+    }
+
+    .menu-link {
+        font-size: 16pt;
+    }
+
+    .contact-icons img {
+        width: 60px;
+    }
+
+    .login-icon img {
+        width: 60px;
+    }
+
+    .logo {
+        width: 210px;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .info-text {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .info-text-right {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .phone {
+        font-size: 16pt;
+    }
+
+    .menu-link {
+        font-size: 16pt;
+    }
+
+    .contact-icons img {
+        width: 60px;
+    }
+
+    .login-icon img {
+        width: 60px;
+    }
+
+    .logo {
+        width: 190px;
+    }
+}
+
+@media (max-width:1283px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-two {
+        display: flex;
+        width: 190px;
+    }
+
+    .info-text-right {
+        display: none;
+    }
+
+    .menu-left {
+        border-radius: 0 0px 0px 0;
+    }
+
+    .menu-right {
+        border-radius: 0px 0px 0px 0px;
+        padding-left: 25px;
+
+    }
+
+    .info {
+        margin-bottom: 0%;
+    }
+
+    .info-right {
+        margin-bottom: 0%;
+    }
+
+    .info-text {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .login-icon {
+        padding-left: 83px;
+    }
 
 }
 
+
+@media (max-width:980px) {
+
+    .contacts {
+        display: none;
+    }
+
+    .info-text {
+        font-size: 16pt;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login-icon img {
+        margin-left: auto;
+        margin-right: 70px;
+    }
+
+    .menu {
+        height: 50px;
+    }
+
+    .menu-link {
+        font-size: 11pt;
+    }
+
+}
+
+@media (max-width:870px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .menu-left {
+        display: none;
+    }
+
+    .menu-right {
+        display: none;
+    }
+
+    .info-left {
+        margin-block: 90px;
+    }
+}
+
+@media (max-width:710px) {
+
+    .login-icon img {
+        width: 50px;
+    }
+
+    .login-icon {
+        padding-left: 0px;
+    }
+
+    .logo-two {
+        width: 180px;
+    }
+
+}
+
+@media (max-width:522px) {
+
+    .login-icon img {
+        width: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .login-icon {
+        margin-bottom: 50px;
+    }
+
+    .logo-two {
+        width: 170px;
+        padding-left: 50px;
+    }
+
+    .info-text {
+        font-size: 13pt;
+    }
+
+    .info-left {
+        margin-block: 0px;
+    }
+
+    .info-right {
+        gap: 0px;
+    }
+
+    header {
+        display: flex;
+        font-family: "IBM Plex Serif";
+        font-weight: bold;
+        font-size: 22pt;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 
 
