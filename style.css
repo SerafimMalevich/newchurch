@@ -497,7 +497,7 @@ header {
     flex-direction: row-reverse;
 }
 
-.line {
+.line-treba {
     width: 500px;
     height: 5px;
     background: black;
@@ -608,7 +608,7 @@ header {
         height: 50px;
     }
 
-    .line {
+    .line-treba {
         display: none;
     }
 
@@ -760,6 +760,12 @@ header {
     width: 650px;
 }
 
+.line-about {
+    width: 500px;
+    height: 5px;
+    background: black;
+    border-radius: 50px;
+}
 
 
 
