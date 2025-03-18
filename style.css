@@ -460,6 +460,10 @@ header {
         justify-content: space-between;
         align-items: center;
     }
+
+    .slaider {
+        display: none;
+    }
 }
 
 
@@ -527,6 +531,185 @@ header {
     width: 100%;
 }
 
+.emblem-foto-treba {
+    height: auto;
+    width: 650px;
+}
+
+
+@media (max-width:1850px) {
+    .treba {
+        background-image: none;
+    }
+
+    .treba_foto3 {
+        width: 1000px;
+    }
+
+}
+
+@media (max-width:1760px) {
+    .treba_foto3 {
+        width: 880px;
+    }
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 600px;
+    }
+
+    .treba-left {
+        gap: 25px;
+    }
+}
+
+@media (max-width:1600px) {
+    .treba_foto3 {
+        width: 800px;
+    }
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 565px;
+    }
+
+    .treba {
+        padding: 65px;
+    }
+}
+
+@media (max-width:1470px) {
+    .treba_foto3 {
+        width: 770px;
+    }
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 525px;
+    }
+
+    .treba {
+        padding: 30px;
+    }
+}
+
+@media (max-width:1340px) {
+    .treba {
+        padding: 20px;
+    }
+
+    .treba-text {
+        font-size: 25pt;
+    }
+
+    .btn {
+        width: 215px;
+        font-size: 25pt;
+        height: 50px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .treba_foto3 {
+        width: 630px;
+    }
+
+}
+
+@media (max-width:1340px) {
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 470px;
+    }
+
+    .treba-text {
+        font-size: 20pt;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 20pt;
+    }
+
+    .treba_foto3 {
+        width: 530px;
+    }
+}
+
+@media (max-width:1030px) {
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 340px;
+    }
+
+    .btn {
+        width: 160px;
+        font-size: 18pt;
+        height: 36px;
+    }
+
+    .treba-text {
+        font-size: 18pt;
+    }
+
+    .treba_foto3 {
+        width: 430px;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .treba-right {
+        display: none;
+    }
+
+    .treba {
+        display: block;
+        justify-content: initial;
+    }
+
+}
+
+@media (max-width:384px) {
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 260px;
+    }
+
+    .btn {
+        width: 140px;
+        font-size: 16pt;
+        height: 32px;
+    }
+
+    .treba-text {
+        font-size: 14pt;
+    }
+}
+
+@media (max-width:300px) {
+
+    .emblem-foto-treba {
+        height: auto;
+        width: 200px;
+    }
+
+    .btn {
+        width: 120px;
+        font-size: 12pt;
+        height: 28px;
+    }
+
+    .treba-text {
+        font-size: 12pt;
+    }
+}
 
 
 .about {
