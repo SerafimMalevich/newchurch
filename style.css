@@ -492,6 +492,10 @@ header {
     text-align: center;
 }
 
+.treba_foto3 {
+    width: 1038px;
+}
+
 .treba-right {
     display: flex;
     flex-direction: row-reverse;
@@ -712,6 +716,10 @@ header {
 }
 
 
+
+
+
+
 .about {
     background-image: url(src/img/рамка-жёлтая.png);
     background-size: cover;
@@ -770,6 +778,212 @@ header {
 
 
 
+
+
+
+.gallery {
+    background-image: url(src/img/рамка-галлерея-главная.png);
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-top-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-gallery {
+    width: 420px;
+    height: 260px;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.images-part-gallery {
+    margin-block: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.gallery-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+.zapiski {
+    background-image: url(src/img/рамка-жёлтая.png);
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zapiski-text-info {
+    font-size: 20pt;
+    text-align: justify;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.zapiski-left {
+    display: flex;
+    align-items: center;
+}
+
+.zapiski-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 77px;
+}
+
+.zapiski-text {
+    font-family: 'Pacifico';
+    font-size: 35pt;
+}
+
+
+.part-scedule {
+    background-image: url(src/img/рамка-расписание-главная.png);
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scedule {
+    background-image: url(src/img/рамка-расписание.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.scedule-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.scedule-table-part {
+    margin: 20px 0;
+    font-family: 'Pacifico';
+    font-size: 19pt;
+    text-align: center;
+}
+
+.line-table-scedule {
+    padding: 8px;
+}
+
+
+.reviews {
+    background-image: url(src/img/рамка-галлерея-главная.png);
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.map-church {
+    background-image: url(src/img/рамка-жёлтая.png);
+    background-size: cover;
+    padding: 100px;
+}
+
+.map-church-text {
+    font-family: 'Pacifico';
+    font-size: 35pt;
+}
+
+.map-church-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 620px;
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+.user-block {
+    background-color: white;
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 40px;
+    width: 330px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 50px 50px 50px 50px;
+}
+
+/* Стиль для заголовков */
+.user-block h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+/* Стиль для текста */
+.user-block p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.reviews-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 18px;
+}
+
+
+
 .page-treba {
     background-image: url(src/img/рамка-большая.png);
     background-size: cover;
@@ -794,7 +1008,7 @@ header {
 
 .line {
     width: 500px;
-    height: 1;
+    height: 8px;
     background: black;
     border-radius: 50px;
 }
@@ -1040,7 +1254,7 @@ h3 {
 }
 
 .page-gallery {
-    background-image: url(src/img/рамка-галерея.png);
+    background-image: url(src/img/gallery/рамка-галлерея.png);
     background-size: cover;
     padding: 100px;
     justify-content: space-between;
@@ -1073,8 +1287,168 @@ h3 {
 }
 
 .images {
-    margin-top: 3%;
-    margin-left: 3%;
-    border-collapse: separate;
+    margin-block: 3%;
+    padding-left: 3%;
+    display: flex;
+    gap: 3%;
     border-spacing: 10%;
+    padding-bottom: 37px;
+}
+
+.gallery-image {
+    width: 800px;
+    height: 490px;
+}
+
+.modal {
+    display: none;
+    /* По умолчанию модальное окно скрыто */
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Темный фон */
+}
+
+.modal img {
+    max-width: 100%;
+    /* Ограничение ширины картинки */
+    height: 100%;
+    /* Ограничение высоты картинки */
+    margin: auto;
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+.page-scedule {
+    background-image: url(src/img/рамка-расписание.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.scedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Pacifico';
+    font-size: 30pt;
+    text-align: center;
+}
+
+.line-table {
+    border: 1px solid #524a4a;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+small {
+    font-size: 0.8em;
+    color: #676565;
+}
+
+.center-top-page-scedule {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 25px;
+    padding-bottom: 80px;
+
+}
+
+.th1 {
+    background-color: #f2d673;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 100px 0px 0px 0px;
+}
+
+.th2 {
+    background-color: #f2d673;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border: 0px solid;
+}
+
+.th3 {
+    background-color: #f2d673;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 0px 100px 0px 0px;
+}
+
+
+
+
+
+
+
+.page-zapiski {
+    background-image: url(src/about-рамка.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+    background-color: #F1E6BE;
+}
+
+
+
+
+
+
+.page-profile {
+    background-image: url(src/about-рамка.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+    background-color: #F1E6BE;
+}
+
+
+
+
+
+.page-login {
+    background-image: url(src/about-рамка.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
+    background-color: #F1E6BE;
+}
+
+
+
+.page-reviews {
+    background-image: url(src/img/рамка-расписание.png);
+    background-size: cover;
+    padding: 100px;
+    justify-content: space-between;
 }
