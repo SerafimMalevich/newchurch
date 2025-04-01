@@ -33,3 +33,5 @@ window.onclick = function (event) {
         modal.style.display = 'none'; // Скрываем модальное окно
     }
 };
+
+

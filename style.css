@@ -515,6 +515,7 @@ header {
     border-radius: 30px;
     font-family: 'Pacifico';
     font-size: 180%;
+    color: #000000;
     border-width: 0px;
     margin-bottom: 0px;
 
@@ -708,6 +709,7 @@ header {
         width: 120px;
         font-size: 12pt;
         height: 28px;
+
     }
 
     .treba-text {
@@ -775,6 +777,17 @@ header {
     border-radius: 50px;
 }
 
+@media (max-width:1850px) {
+    .about {
+        background-image: none;
+    }
+}
+
+@media (max-width:1600px) {
+    .about {
+        background-image: none;
+    }
+}
 
 
 
@@ -984,6 +997,8 @@ iframe {
 
 
 
+
+
 .page-treba {
     background-image: url(src/img/рамка-большая.png);
     background-size: cover;
@@ -1012,6 +1027,7 @@ iframe {
     background: black;
     border-radius: 50px;
 }
+
 
 
 
@@ -1047,6 +1063,10 @@ iframe {
     align-items: center;
 }
 
+.foto-page-treba {
+    margin-right: 1%;
+}
+
 .communion-at-home-part {
     display: flex;
     margin-top: 6%;
@@ -1056,9 +1076,305 @@ iframe {
     align-items: center;
 }
 
+.text-heading-page-christening {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+.text-heading-page-consecration {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+.text-heading-page-wedding {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+
+.text-heading-page-communion {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
 
 
+@media (max-width:1850px) {
+    .page-treba {
+        background-image: none;
+    }
+}
 
+
+@media (max-width:1790px) {
+    .christening-part {
+        margin-left: -4%;
+    }
+
+    .consecration-car-part {
+        margin-left: -4%;
+    }
+
+    .wedding-part {
+        margin-left: -4%;
+    }
+
+    .communion-at-home-part {
+        margin-left: -4%;
+    }
+}
+
+@media (max-width:1670px) {
+    .emblem-foto-page-treba {
+        height: 300px;
+    }
+
+    .center-top-page-treba {
+        gap: 0px;
+    }
+
+    .foto-page-treba-info {
+        height: 400px;
+    }
+
+    .christening-part {
+        margin-left: -4%;
+    }
+
+    .consecration-car-part {
+        margin-left: -4%;
+    }
+
+    .wedding-part {
+        margin-left: -4%;
+    }
+
+    .text-box-wedding-part {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width:1520px) {
+
+    .text-info-page-treba {
+        font-size: 18pt;
+    }
+
+    .text-heading-page-treba {
+        font-size: 30pt;
+    }
+
+}
+
+
+@media (max-width:1420px) {
+
+    .emblem-foto-page-treba {
+        height: 250px;
+    }
+
+    .text-info-page-treba {
+        font-size: 15pt;
+    }
+
+    .text-heading-page-treba {
+        font-size: 30pt;
+    }
+
+    .foto-page-treba-info {
+        height: 350px;
+    }
+
+    .text-box-wedding-part {
+        margin: 5px;
+    }
+
+    .text-heading-page-christening {
+        font-size: 30pt;
+    }
+
+    .text-heading-page-consecration {
+        font-size: 30pt;
+    }
+
+    .text-heading-page-wedding {
+        font-size: 30pt;
+    }
+
+    .text-heading-page-communion {
+        font-size: 30pt;
+    }
+}
+
+
+@media (max-width:1225px) {
+
+    .page-treba {
+        padding: 20px;
+    }
+
+    .christening-part {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .consecration-car-part {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .wedding-part {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-left: 0px;
+        max-width: none;
+    }
+
+    .communion-at-home-part {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .foto-page-treba {
+        margin-right: 1%;
+    }
+
+}
+
+@media (max-width:700px) {
+    .emblem-foto-page-treba {
+        height: 200px;
+    }
+
+    .page-treba {
+        padding: 40px;
+    }
+
+    .treba-text-page-treba {
+        font-size: 25pt;
+    }
+
+    .text-info-page-treba {
+        font-size: 13pt;
+    }
+
+    .text-heading-page-treba {
+        font-size: 30pt;
+    }
+
+    .foto-page-treba-info {
+        height: 300px;
+    }
+
+    .text-heading-page-christening {
+        font-size: 25pt;
+    }
+
+    .text-heading-page-consecration {
+        font-size: 25pt;
+    }
+
+    .text-heading-page-wedding {
+        font-size: 25pt;
+    }
+
+    .text-heading-page-communion {
+        font-size: 25pt;
+    }
+
+    .line {
+        width: 500px;
+        height: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .emblem-foto-page-treba {
+        height: 150px;
+    }
+
+    .line {
+        width: 300px;
+        height: 5px;
+    }
+
+    .foto-page-treba-info {
+        height: 250px;
+    }
+
+    .text-info-page-treba {
+        font-size: 11pt;
+    }
+
+    .page-treba {
+        padding: 0px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width:440px) {
+    .emblem-foto-page-treba {
+        height: 100px;
+    }
+
+    .foto-page-treba-info {
+        height: 200px;
+    }
+
+    .text-info-page-treba {
+        font-size: 10pt;
+    }
+
+    .text-heading-page-christening {
+        font-size: 20pt;
+    }
+
+    .text-heading-page-consecration {
+        font-size: 20pt;
+    }
+
+    .text-heading-page-wedding {
+        font-size: 20pt;
+    }
+
+    .text-heading-page-communion {
+        font-size: 20pt;
+    }
+
+    .treba-text-page-treba {
+        font-size: 20pt;
+    }
+}
+
+@media (max-width:350px) {
+
+    .foto-page-treba-info {
+        height: 150px;
+    }
+
+    .text-info-page-treba {
+        font-size: 9pt;
+    }
+
+    .line {
+        width: 250px;
+        height: 5px;
+    }
+}
 
 
 
@@ -1409,40 +1725,283 @@ small {
 
 
 
-
-
 .page-zapiski {
-    background-image: url(src/about-рамка.png);
+    background-image: url(src/img/рамка-записки-страница.png);
     background-size: cover;
     padding: 100px;
     justify-content: space-between;
     background-color: #F1E6BE;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
 }
 
+.page-zapiski-text {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    text-align: center;
+    margin-top: -2%;
+    padding-top: 60px;
+}
+
+.zapiski-center-top {
+    width: 700px;
+    height: 1320px;
+    background-color: rgba(249, 223, 131, 1);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    flex-direction: column;
+}
+
+.zapiski-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 350px;
+    padding: 18px;
+    margin-bottom: 45px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+.btn-zapiski {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.text {
+    padding-block: 8px;
+}
+
+.btn-zapiski-register {
+    background: #F2D673;
+    width: 545px;
+    height: 85px;
+    border-radius: 30px;
+    font-family: 'Pacifico';
+    font-size: 180%;
+    border-width: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 6px #ffa500;
+}
+
+.btn-zapiski-register:hover {
+    box-shadow: 0 4px #ffa500;
+    top: 180%;
+}
+
+.btn-zapiski-register:active {
+    box-shadow: none;
+    top: 180%;
+}
+
+.page-zapiski-text-dop-info {
+    font-family: "IBM Plex Serif";
+    font-weight: bold;
+    font-size: 22pt;
+    text-align: center;
+    margin-top: -2%;
+    padding-top: 80px;
+}
+
+.zapiski-dop-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+
+.container {
+    margin: 20px auto;
+    padding-top: 25px;
+}
+
+.title {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "IBM Plex Serif";
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.rules-list {
+    margin-bottom: 10px;
+    font-family: "IBM Plex Serif";
+    font-weight: bold;
+    font-size: 22pt;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
 
 
 
 
 .page-profile {
-    background-image: url(src/about-рамка.png);
+    background-image: url(src/img/рамка-логин.png);
     background-size: cover;
     padding: 100px;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #F1E6BE;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
+.page-profile-text {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    text-align: center;
+    margin-top: -2%;
+    padding-top: 80px;
+}
+
+.profile-center-top {
+    width: 1300px;
+    height: 928px;
+    background-color: rgba(249, 223, 131, 1);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 80px;
+}
+
+.line-profile {
+    width: 500px;
+    height: 8px;
+    background: black;
+    border-radius: 50px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 350px;
+    padding: 18px;
+    margin-bottom: 70px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+.btn-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.email {
+    padding-block: 25px;
+}
+
+.password {
+    padding-block: 25px;
+}
+
+.register-text-btn {
+    padding-bottom: 65px;
+    font-weight: 400;
+    color: #000000;
+}
 
 
 
 
 .page-login {
-    background-image: url(src/about-рамка.png);
+    background-image: url(src/img/рамка-авторизация.png);
     background-size: cover;
     padding: 100px;
     justify-content: space-between;
     background-color: #F1E6BE;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
+
+.page-login-text {
+    font-family: 'Pacifico';
+    font-size: 40pt;
+    text-align: center;
+    margin-top: -2%;
+    padding-top: 80px;
+}
+
+.login-center-top {
+    width: 1300px;
+    height: 1320px;
+    background-color: rgba(249, 223, 131, 1);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 80px;
+    flex-direction: column;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 350px;
+    padding: 18px;
+    margin-bottom: 45px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+.btn-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.text {
+    padding-block: 8px;
+}
+
+.btn-login-register {
+    background: #F2D673;
+    width: 545px;
+    height: 85px;
+    border-radius: 30px;
+    font-family: 'Pacifico';
+    font-size: 180%;
+    border-width: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 6px #ffa500;
+}
+
+.btn-login-register:hover {
+    box-shadow: 0 4px #ffa500;
+    top: 180%;
+}
+
+.btn-login-register:active {
+    box-shadow: none;
+    top: 180%;
+}
+
+
+
 
 
 
