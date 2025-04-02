@@ -1340,23 +1340,23 @@ iframe {
     }
 
     .text-heading-page-christening {
-        font-size: 20pt;
+        font-size: 18pt;
     }
 
     .text-heading-page-consecration {
-        font-size: 20pt;
+        font-size: 18pt;
     }
 
     .text-heading-page-wedding {
-        font-size: 20pt;
+        font-size: 18pt;
     }
 
     .text-heading-page-communion {
-        font-size: 20pt;
+        font-size: 18pt;
     }
 
     .treba-text-page-treba {
-        font-size: 20pt;
+        font-size: 18pt;
     }
 }
 
@@ -1512,6 +1512,9 @@ h3 {
 
 
 
+
+
+
 .page-about {
     background-image: url(src/about-рамка.png);
     background-size: cover;
@@ -1536,6 +1539,11 @@ h3 {
     margin-top: -2%;
 }
 
+.information-part-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 .text-heading-page-treba {
     font-family: 'Pacifico';
@@ -1546,7 +1554,7 @@ h3 {
 
 .information-part {
     display: flex;
-    margin-top: 8%;
+    margin-top: 7%;
     margin-left: 1%;
     justify-content: space-between;
     align-items: center;
@@ -1554,7 +1562,7 @@ h3 {
 
 .information-part-two {
     display: flex;
-    margin-top: 10%;
+    margin-top: 9%;
     margin-left: 4%;
     justify-content: space-between;
     align-items: center;
@@ -1562,12 +1570,304 @@ h3 {
 
 .information-part-three {
     display: flex;
-    margin-top: 8%;
+    margin-top: 9%;
     margin-left: 4%;
-    margin-bottom: 3%;
+    margin-bottom: 13%;
     justify-content: space-between;
     align-items: center;
 }
+
+.text-box-page-about {
+    display: flex;
+    justify-content: center;
+}
+
+.text-info-page-about {
+    max-width: 90%;
+    text-align: justify;
+}
+
+
+
+@media (max-width:1850px) {
+    .page-about {
+        background-image: none;
+    }
+}
+
+
+@media (max-width:1800px) {
+    .center-top-page-about {
+        gap: 0px;
+    }
+
+    .information-part {
+        margin-top: 6%;
+    }
+
+    .information-part-two {
+        margin-top: 0%;
+    }
+
+    .information-part-three {
+        margin-top: 0%;
+    }
+
+    .information-part-about {
+        gap: 80px;
+    }
+
+    .page-about {
+        padding: 100px;
+    }
+
+    .foto-page-about {
+        width: 700px;
+    }
+
+    .text-info-page-about {
+        font-size: 20pt;
+    }
+
+    .about-text-page-about {
+        font-size: 40pt;
+        margin-top: 0%;
+    }
+
+    .emblem-foto-page-about {
+        height: 300px;
+    }
+}
+
+@media (max-width:1600px) {
+
+    .information-part-about {
+        gap: 80px;
+    }
+
+    .page-about {
+        padding: 80px;
+    }
+
+    .foto-page-about {
+        width: 650px;
+    }
+
+    .text-info-page-about {
+        font-size: 18pt;
+    }
+
+    .about-text-page-about {
+        font-size: 35pt;
+        margin-top: 0%;
+    }
+
+    .emblem-foto-page-about {
+        height: 300px;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .information-part-about {
+        gap: 80px;
+    }
+
+    .page-about {
+        padding: 60px;
+    }
+
+    .foto-page-about {
+        width: 600px;
+    }
+
+    .text-info-page-about {
+        font-size: 16pt;
+    }
+
+    .about-text-page-about {
+        font-size: 30pt;
+        margin-top: 0%;
+    }
+
+    .emblem-foto-page-about {
+        height: 300px;
+    }
+}
+
+
+@media (max-width:1300px) {
+
+    .information-part-about {
+        gap: 80px;
+    }
+
+    .page-about {
+        padding: 40px;
+    }
+
+    .foto-page-about {
+        width: 500px;
+    }
+
+    .text-info-page-about {
+        font-size: 14pt;
+    }
+
+    .about-text-page-about {
+        font-size: 25pt;
+        margin-top: 0%;
+    }
+
+    .emblem-foto-page-about {
+        height: 250px;
+    }
+}
+
+@media (max-width:1100px) {
+
+    .information-part {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .information-part-two {
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0%;
+    }
+
+    .information-part-three {
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0%;
+    }
+
+    .information-part-about {
+        gap: 50px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .page-about {
+        padding: 40px;
+    }
+
+    .foto-page-about {
+        width: 500px;
+    }
+
+    .text-info-page-about {
+        font-size: 14pt;
+        max-width: 50%;
+        text-align: justify;
+    }
+
+    .about-text-page-about {
+        font-size: 25pt;
+        margin-top: 0%;
+    }
+
+    .emblem-foto-page-about {
+        height: 250px;
+    }
+}
+
+@media (max-width:900px) {
+    .emblem-foto-page-about {
+        height: 200px;
+    }
+
+    .about-text-page-about {
+        font-size: 22pt;
+    }
+
+    .text-info-page-about {
+        font-size: 14pt;
+        max-width: 60%;
+    }
+}
+
+@media (max-width:800px) {
+    .text-info-page-about {
+        max-width: 70%;
+    }
+}
+
+@media (max-width:700px) {
+    .text-info-page-about {
+        max-width: 80%;
+    }
+}
+
+@media (max-width:600px) {
+
+    .page-about {
+        padding: 20px;
+    }
+
+    .emblem-foto-page-about {
+        height: 150px;
+    }
+
+    .about-text-page-about {
+        font-size: 20pt;
+    }
+
+    .text-info-page-about {
+        font-size: 12pt;
+        max-width: 80%;
+    }
+
+    .foto-page-about {
+        width: 400px;
+    }
+}
+
+@media (max-width:500px) {
+    .text-info-page-about {
+        font-size: 12pt;
+        max-width: 90%;
+    }
+
+    .emblem-foto-page-about {
+        height: 133px;
+    }
+
+    .foto-page-about {
+        width: 300px;
+    }
+
+    .page-about {
+        padding: 10px;
+    }
+}
+
+@media (max-width:380px) {
+    .text-info-page-about {
+        font-size: 12pt;
+        max-width: 90%;
+    }
+
+    .emblem-foto-page-about {
+        height: 100px;
+    }
+
+    .about-text-page-about {
+        font-size: 18pt;
+    }
+
+    .foto-page-about {
+        width: 250px;
+    }
+
+}
+
 
 .page-gallery {
     background-image: url(src/img/gallery/рамка-галлерея.png);
@@ -1814,7 +2114,7 @@ small {
 
 @media (max-width:450px) {
     .emblem-foto-page-scedule {
-        width: 250px;
+        width: 264px;
     }
 
     .page-scedule {
@@ -1822,7 +2122,7 @@ small {
     }
 
     .about-text-page-scedule {
-        font-size: 15pt;
+        font-size: 18pt;
     }
 
     .center-top-page-scedule {
@@ -1846,7 +2146,7 @@ small {
 
 @media (max-width:350px) {
     .emblem-foto-page-scedule {
-        width: 200px;
+        width: 264px;
     }
 
     .page-scedule {
@@ -1854,7 +2154,7 @@ small {
     }
 
     .about-text-page-scedule {
-        font-size: 13pt;
+        font-size: 18pt;
     }
 
     .center-top-page-scedule {
