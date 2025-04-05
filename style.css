@@ -1005,16 +1005,7 @@ iframe {
     padding: 100px;
 }
 
-.center-top-page-treba {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.treba-text-page-treba {
+.text-page {
     font-family: 'Pacifico';
     font-size: 40pt;
     text-align: center;
@@ -1131,11 +1122,11 @@ iframe {
 }
 
 @media (max-width:1670px) {
-    .emblem-foto-page-treba {
+    .emblem-foto-page {
         height: 300px;
     }
 
-    .center-top-page-treba {
+    .center-top-page {
         gap: 0px;
     }
 
@@ -1176,7 +1167,7 @@ iframe {
 
 @media (max-width:1420px) {
 
-    .emblem-foto-page-treba {
+    .emblem-foto-page {
         height: 250px;
     }
 
@@ -1256,7 +1247,7 @@ iframe {
 }
 
 @media (max-width:700px) {
-    .emblem-foto-page-treba {
+    .emblem-foto-page {
         height: 200px;
     }
 
@@ -1264,7 +1255,7 @@ iframe {
         padding: 40px;
     }
 
-    .treba-text-page-treba {
+    .text-page {
         font-size: 25pt;
     }
 
@@ -1303,7 +1294,7 @@ iframe {
 }
 
 @media (max-width:600px) {
-    .emblem-foto-page-treba {
+    .emblem-foto-page {
         height: 150px;
     }
 
@@ -1327,7 +1318,7 @@ iframe {
 }
 
 @media (max-width:440px) {
-    .emblem-foto-page-treba {
+    .emblem-foto-page {
         height: 100px;
     }
 
@@ -1355,7 +1346,7 @@ iframe {
         font-size: 18pt;
     }
 
-    .treba-text-page-treba {
+    .text-page {
         font-size: 18pt;
     }
 }
@@ -1523,7 +1514,7 @@ h3 {
     background-color: #F1E6BE;
 }
 
-.center-top-page-about {
+.center-top-page {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1532,7 +1523,7 @@ h3 {
     gap: 15px;
 }
 
-.about-text-page-about {
+.text-page {
     font-family: 'Pacifico';
     font-size: 40pt;
     text-align: center;
@@ -1543,6 +1534,7 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .text-heading-page-treba {
@@ -1597,7 +1589,7 @@ h3 {
 
 
 @media (max-width:1800px) {
-    .center-top-page-about {
+    .center-top-page {
         gap: 0px;
     }
 
@@ -1629,12 +1621,12 @@ h3 {
         font-size: 20pt;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 40pt;
         margin-top: 0%;
     }
 
-    .emblem-foto-page-about {
+    .emblem-foto-page {
         height: 300px;
     }
 }
@@ -1657,14 +1649,11 @@ h3 {
         font-size: 18pt;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 35pt;
         margin-top: 0%;
     }
 
-    .emblem-foto-page-about {
-        height: 300px;
-    }
 }
 
 @media (max-width:1440px) {
@@ -1685,14 +1674,11 @@ h3 {
         font-size: 16pt;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 30pt;
         margin-top: 0%;
     }
 
-    .emblem-foto-page-about {
-        height: 300px;
-    }
 }
 
 
@@ -1714,12 +1700,12 @@ h3 {
         font-size: 14pt;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 25pt;
         margin-top: 0%;
     }
 
-    .emblem-foto-page-about {
+    .emblem-foto-page {
         height: 250px;
     }
 }
@@ -1768,22 +1754,19 @@ h3 {
         text-align: justify;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 25pt;
         margin-top: 0%;
     }
 
-    .emblem-foto-page-about {
-        height: 250px;
-    }
 }
 
 @media (max-width:900px) {
-    .emblem-foto-page-about {
+    .emblem-foto-page {
         height: 200px;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 22pt;
     }
 
@@ -1811,11 +1794,11 @@ h3 {
         padding: 20px;
     }
 
-    .emblem-foto-page-about {
+    .emblem-foto-page {
         height: 150px;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 20pt;
     }
 
@@ -1835,7 +1818,7 @@ h3 {
         max-width: 90%;
     }
 
-    .emblem-foto-page-about {
+    .emblem-foto-page {
         height: 133px;
     }
 
@@ -1854,11 +1837,11 @@ h3 {
         max-width: 90%;
     }
 
-    .emblem-foto-page-about {
+    .emblem-foto-page {
         height: 100px;
     }
 
-    .about-text-page-about {
+    .text-page {
         font-size: 18pt;
     }
 
@@ -1874,22 +1857,6 @@ h3 {
     background-size: cover;
     padding: 100px;
     justify-content: space-between;
-}
-
-.center-top-page-gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.gallery-text-page-gallery {
-    font-family: 'Pacifico';
-    font-size: 40pt;
-    text-align: center;
-    margin-top: -2%;
 }
 
 .video {
@@ -1953,6 +1920,21 @@ h3 {
 
 
 
+@media (max-width:1850px) {
+    .page-gallery {
+        background-image: none;
+    }
+}
+
+.gallery-image {
+    width: 800px;
+    height: 490px;
+}
+
+
+
+
+
 
 
 .page-scedule {
@@ -1969,6 +1951,7 @@ h3 {
     font-family: 'Pacifico';
     font-size: 30pt;
     text-align: center;
+    margin-bottom: 125px;
 }
 
 .line-table {
@@ -1985,16 +1968,13 @@ small {
     color: #676565;
 }
 
-.center-top-page-scedule {
+.center-top-page {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding-top: 25px;
-    padding-bottom: 80px;
-
 }
 
 .th1 {
@@ -2023,7 +2003,7 @@ small {
     border-radius: 0px 100px 0px 0px;
 }
 
-.about-text-page-scedule {
+.text-page {
     font-family: 'Pacifico';
     font-size: 40pt;
     text-align: center;
@@ -2039,15 +2019,11 @@ small {
 
 
 @media (max-width:1280px) {
-    .emblem-foto-page-scedule {
-        width: 750px;
-    }
-
     .page-scedule {
         padding: 50px;
     }
 
-    .about-text-page-scedule {
+    .text-page {
         font-size: 35pt;
     }
 
@@ -2055,22 +2031,19 @@ small {
         font-size: 20pt;
     }
 
-    .center-top-page-scedule {
+    .center-top-page {
         padding-bottom: 40px;
     }
 }
 
 
 @media (max-width:850px) {
-    .emblem-foto-page-scedule {
-        width: 550px;
-    }
 
     .page-scedule {
         padding: 30px;
     }
 
-    .about-text-page-scedule {
+    .text-page {
         font-size: 27pt;
     }
 
@@ -2089,12 +2062,8 @@ small {
 
 
 @media (max-width:600px) {
-    .emblem-foto-page-scedule {
-        width: 350px;
-    }
 
-
-    .about-text-page-scedule {
+    .text-page {
         font-size: 20pt;
     }
 
@@ -2113,19 +2082,15 @@ small {
 
 
 @media (max-width:450px) {
-    .emblem-foto-page-scedule {
-        width: 264px;
-    }
-
     .page-scedule {
         padding: 20px;
     }
 
-    .about-text-page-scedule {
+    .text-page {
         font-size: 18pt;
     }
 
-    .center-top-page-scedule {
+    .center-top-page {
         padding-bottom: 20px;
         padding-top: 0px;
     }
@@ -2145,19 +2110,16 @@ small {
 
 
 @media (max-width:350px) {
-    .emblem-foto-page-scedule {
-        width: 264px;
-    }
 
     .page-scedule {
         padding: 10px;
     }
 
-    .about-text-page-scedule {
+    .text-page {
         font-size: 18pt;
     }
 
-    .center-top-page-scedule {
+    .center-top-page {
         padding-bottom: 10px;
     }
 
@@ -2205,6 +2167,7 @@ small {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 
@@ -2272,6 +2235,7 @@ input[type="password"] {
 .container {
     margin: 20px auto;
     padding-top: 25px;
+    margin-bottom: 64px;
 }
 
 .title {
@@ -2329,6 +2293,8 @@ input[type="password"] {
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 80px;
+    margin-top: 50px;
+    margin-bottom: 55px;
 }
 
 .line-profile {
@@ -2338,11 +2304,10 @@ input[type="password"] {
     border-radius: 50px;
 }
 
-input[type="text"],
-input[type="password"] {
+.input-profile {
     width: 350px;
     padding: 18px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     border: 2px solid #ccc;
     border-radius: 30px;
 }
@@ -2366,6 +2331,111 @@ input[type="password"] {
     padding-bottom: 65px;
     font-weight: 400;
     color: #000000;
+}
+
+
+@media (max-width:1850px) {
+    .page-profile {
+        background-image: none;
+    }
+}
+
+@media (max-width:1280px) {
+    .page-profile-text {
+        font-size: 35pt;
+    }
+
+    .profile-center-top {
+        width: 800px;
+        height: 820px;
+    }
+}
+
+@media (max-width:850px) {
+    .page-profile-text {
+        font-size: 27pt;
+    }
+
+    .profile-center-top {
+        width: 550px;
+        height: 780px;
+    }
+
+    .email {
+        padding-block: 25px;
+        font-size: 20pt;
+    }
+
+    .password {
+        padding-block: 25px;
+        font-size: 20pt;
+    }
+
+    .register-text-btn {
+        font-size: 20pt;
+    }
+}
+
+@media (max-width:700px) {
+    .line-profile {
+        width: 400px;
+        height: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .page-profile-text {
+        font-size: 20pt;
+    }
+
+    .line-profile {
+        display: none;
+    }
+
+    .profile-center-top {
+        width: 380px;
+        height: 680px;
+        border-radius: 60px
+    }
+
+    .email {
+        padding-block: 10px;
+        font-size: 15pt;
+    }
+
+    .password {
+        padding-block: 10px;
+        font-size: 15pt;
+    }
+
+    .register-text-btn {
+        font-size: 15pt;
+    }
+
+    .input-profile {
+        width: 240px;
+    }
+}
+
+@media (max-width:500px) {
+    .btn-profile {
+        padding-top: 20px;
+    }
+
+    .input-profile {
+        margin-bottom: 18px;
+        width: 145px;
+    }
+
+    .profile-center-top {
+        width: 280px;
+        height: 540px;
+        border-radius: 60px;
+    }
+
+    .page-profile {
+        padding: 20px;
+    }
 }
 
 
@@ -2400,6 +2470,8 @@ input[type="password"] {
     flex-wrap: wrap;
     border-radius: 80px;
     flex-direction: column;
+    margin-bottom: 80px;
+    margin-top: 25px;
 }
 
 
@@ -2447,6 +2519,149 @@ input[type="password"] {
 
 
 
+@media (max-width:1850px) {
+    .page-login {
+        background-image: none;
+    }
+}
+
+
+@media (max-width:1500px) {
+
+    .page-login-text {
+        font-size: 35pt;
+    }
+
+    .login-center-top {
+        width: 800px;
+        height: 1320px;
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media (max-width:1280px) {
+    .page-login-text {
+        font-size: 30pt;
+    }
+
+    .login-center-top {
+        width: 800px;
+        height: 1320px;
+    }
+}
+
+
+@media (max-width:850px) {
+    .page-login-text {
+        font-size: 27pt;
+    }
+
+    .btn-login-register {
+        width: 380px;
+        height: 75px;
+        font-size: 125%;
+    }
+
+    .input-profile {
+        width: 350px;
+        padding: 18px;
+        margin-bottom: 50px;
+    }
+
+    .login-center-top {
+        width: 550px;
+        height: 1320px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .page-login-text {
+        font-size: 20pt;
+        padding-top: 30px;
+    }
+
+    .btn-login-register {
+        width: 265px;
+        height: 65px;
+        font-size: 90%;
+    }
+
+    .input-profile {
+        width: 270px;
+        padding: 18px;
+        margin-bottom: 18px;
+    }
+
+    .login-center-top {
+        width: 400px;
+        height: 920px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .btn-login {
+        padding-top: 20px;
+    }
+
+    .page-login {
+        padding: 25px;
+    }
+
+    .text {
+        font-size: 18pt;
+    }
+}
+
+@media (max-width:450px) {
+    .text {
+        font-size: 14pt;
+    }
+
+    .input-profile {
+        width: 170px;
+        margin-bottom: 5px;
+    }
+
+    .btn-login-register {
+        width: 200px;
+        height: 50px;
+        font-size: 70%;
+    }
+
+    .login-center-top {
+        width: 350px;
+        height: 770px;
+    }
+}
+
+@media (max-width:360px) {
+    .text {
+        font-size: 12pt;
+    }
+
+    .input-profile {
+        width: 120px;
+        margin-bottom: 5px;
+    }
+
+    .btn-login-register {
+        width: 200px;
+        height: 50px;
+        font-size: 60%;
+    }
+
+    .login-center-top {
+        width: 300px;
+        height: 730px;
+    }
+
+    .btn-login {
+        padding-top: 0px;
+    }
+}
 
 
 
