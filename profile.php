@@ -46,12 +46,12 @@
 
                 <nav class="menu-burger" id="menuBurger">
                     <ul>
-                        <li><a href="index.html" class="menu-link">Главная</a></li>
-                        <li><a href="treba.html" class="menu-link">Требы</a></li>
-                        <li><a href="about.html" class="menu-link">О нас</a></li>
-                        <li><a href="gallery.html" class="menu-link">Галерея</a></li>
-                        <li><a href="zapiski.html" class="menu-link">Записки</a></li>
-                        <li><a href="scedule.html" class="menu-link">Расписание служб</a></li>
+                        <li><a href='index.html'>Главная</a></li>
+                        <li><a href='treba.html'>Треба</a></li>
+                        <li><a href='about.html'>О нас</a></li>
+                        <li><a href='gallery.html'>Галерея</a></li>
+                        <li><a href='zapiski.html'>Записки</a></li>
+                        <li><a href='scedule.html'>Расписание</a></li>
                     </ul>
                 </nav>
 
@@ -80,7 +80,7 @@
                     Русская Православная Церковь,<br>Балашихинская епархия, Лосино-<br>Петровское благочиние.
                 </div>
                 <div class="login-icon">
-                    <a href="profile.html">
+                    <a href="profile.php">
                         <img class="profile-icons" src="src/icons/Profile-icon.svg" alt="Profile-icon">
                     </a>
                 </div>
@@ -93,48 +93,39 @@
         </div>
     </header>
 
-
-    <div class="page-login">
+    <div class="page-profile">
 
         <div class="center-top-page">
             <img class="emblem-foto-page" src="src/img/Эмблема-вариант2.png">
 
             <div class="text-page">
-                Авторизация
+                Вход
             </div>
 
             <div class="line"></div>
         </div>
 
-        <div class="login-center-top">
-            <div class="page-login-text">
+        <div class="profile-center-top">
+            <div class="page-profile-text">
                 Введите данные
             </div>
+            <div class="line-profile"></div>
 
-            <div class="btn-login">
-                <div class="text">Фамилия</div>
-                <input class="input-profile" placeholder="Введите фамилию">
-
-                <div class="text">Имя</div>
-                <input class="input-profile" placeholder="Введите имя">
-
-                <div class="text">Отчество</div>
-                <input class="input-profile" placeholder="Введите отчество">
-
-                <div class="text">Телефон</div>
-                <input class="input-profile" placeholder="Введите номер телефона">
-
-                <div class="text">E-mail</div>
+            <div class="btn-profile">
+                <div class="email">E-mail</div>
                 <input class="input-profile" placeholder="Введите email">
 
-                <div class="text">Пароль</div>
+                <div class="password">Пароль</div>
                 <input class="input-profile" placeholder="Введите пароль">
 
-                <form action="profile.html">
-                    <button class="btn-login-register">Зарегистрироваться</button>
+                <a href='login.php' class="register-text-btn">Зарегистрироваться</a>
+
+                <form action="profile.php">
+                    <button class="btn">Войти</button>
                 </form>
             </div>
         </div>
+
 
     </div>
 

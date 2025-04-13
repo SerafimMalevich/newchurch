@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,12 +49,12 @@
 
                 <nav class="menu-burger" id="menuBurger">
                     <ul>
-                        <li><a href='index.html'>Главная</a></li>
-                        <li><a href='treba.html'>Треба</a></li>
-                        <li><a href='about.html'>О нас</a></li>
-                        <li><a href='gallery.html'>Галерея</a></li>
-                        <li><a href='zapiski.html'>Записки</a></li>
-                        <li><a href='scedule.html'>Расписание</a></li>
+                        <li><a href="index.html" class="menu-link">Главная</a></li>
+                        <li><a href="treba.html" class="menu-link">Требы</a></li>
+                        <li><a href="about.html" class="menu-link">О нас</a></li>
+                        <li><a href="gallery.html" class="menu-link">Галерея</a></li>
+                        <li><a href="zapiski.html" class="menu-link">Записки</a></li>
+                        <li><a href="scedule.html" class="menu-link">Расписание служб</a></li>
                     </ul>
                 </nav>
 
@@ -80,7 +83,7 @@
                     Русская Православная Церковь,<br>Балашихинская епархия, Лосино-<br>Петровское благочиние.
                 </div>
                 <div class="login-icon">
-                    <a href="profile.html">
+                    <a href="profile.php">
                         <img class="profile-icons" src="src/icons/Profile-icon.svg" alt="Profile-icon">
                     </a>
                 </div>
@@ -93,39 +96,58 @@
         </div>
     </header>
 
-    <div class="page-profile">
+
+    <div class="page-login">
 
         <div class="center-top-page">
             <img class="emblem-foto-page" src="src/img/Эмблема-вариант2.png">
 
             <div class="text-page">
-                Вход
+                Авторизация
             </div>
 
             <div class="line"></div>
         </div>
 
-        <div class="profile-center-top">
-            <div class="page-profile-text">
+        <div class="login-center-top">
+            <div class="page-login-text">
                 Введите данные
             </div>
-            <div class="line-profile"></div>
 
-            <div class="btn-profile">
-                <div class="email">E-mail</div>
-                <input class="input-profile" placeholder="Введите email">
+            <div class="btn-login">
+                <form class="sign-form" method="post" action="lib/reg.inc.php">
 
-                <div class="password">Пароль</div>
-                <input class="input-profile" placeholder="Введите пароль">
+                    <div class="text">Фамилия</div>
+                    <input name="surname" class="input-profile" placeholder="Введите фамилию">
 
-                <a href='login.html' class="register-text-btn">Зарегистрироваться</a>
+                    <div class="text">Имя</div>
+                    <input name="name" class="input-profile" placeholder="Введите имя">
 
-                <form action="profile.html">
-                    <button class="btn">Войти</button>
+                    <div class="text">Отчество</div>
+                    <input name="patronymic" class="input-profile" placeholder="Введите отчество">
+
+                    <div class="text">Телефон</div>
+                    <input name="telephone" class="input-profile" placeholder="Введите номер телефона">
+
+                    <div class="text">E-mail</div>
+                    <input name="email" class="input-profile" placeholder="Введите email">
+
+                    <div class="text">Пароль</div>
+                    <input name="password" class="input-profile" placeholder="Введите пароль">
+
+                    <button type="submit" class="btn-login-register">Зарегистрироваться</button>
+
+                    <?php
+                    if (isset($_SESSION['ERROR'])) {
+                        echo "<p class='error'>{$_SESSION['ERROR']}</p>";
+                        unset($_SESSION['ERROR']);
+                    } ?>
+
+
+
                 </form>
             </div>
         </div>
-
 
     </div>
 
